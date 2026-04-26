@@ -2,11 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://gmitech.in/sitemap.xml
-Allow: /Images/
-
-# Googlebot specific
-User-agent: Googlebot
-Allow: /
 
 # Bingbot specific
 User-agent: Bingbot
