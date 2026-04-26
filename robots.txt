@@ -1,13 +1,7 @@
 User-agent: *
 Allow: /
 
-# Block non-content paths
-Disallow: /Js/
-Disallow: /videos/
-Disallow: /New Text Document.txt
-Disallow: /README.md
-
-# Allow all major crawlers access to images and styles
+Sitemap: https://gmitech.in/sitemap.xml
 Allow: /Images/
 
 # Googlebot specific
