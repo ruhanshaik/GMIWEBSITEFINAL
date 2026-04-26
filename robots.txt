@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Block non-content paths
+Disallow: /Js/
+Disallow: /videos/
+Disallow: /New Text Document.txt
+Disallow: /README.md
+
+# Allow all major crawlers access to images and styles
+Allow: /Images/
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+
+# Bingbot specific
+User-agent: Bingbot
+Allow: /
+
+# Block AI scrapers (optional — remove if you want AI training)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Sitemap location — REQUIRED
+Sitemap: https://gmitech.in/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 2
