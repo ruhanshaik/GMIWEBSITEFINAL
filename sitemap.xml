@@ -2,60 +2,60 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- HOMEPAGE -->
-  <url>
-    <loc>https://gmitech.in/</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<!-- HOMEPAGE -->
+<url>
+  <loc>https://gmitech.in/</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+</url>
 
-  <!-- ABOUT -->
-  <url>
-    <loc>https://gmitech.in/about.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<!-- ABOUT -->
+<url>
+  <loc>https://gmitech.in/about.html</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
 
-  <!-- SERVICES -->
-  <url>
-    <loc>https://gmitech.in/services.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<!-- SERVICES -->
+<url>
+  <loc>https://gmitech.in/services.html</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
 
-  <!-- PORTFOLIO -->
-  <url>
-    <loc>https://gmitech.in/portfolio.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<!-- PORTFOLIO -->
+<url>
+  <loc>https://gmitech.in/portfolio.html</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
 
-  <!-- BLOGS -->
-  <url>
-    <loc>https://gmitech.in/blogs.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<!-- BLOGS -->
+<url>
+  <loc>https://gmitech.in/blogs.html</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
 
-  <!-- CAREERS -->
-  <url>
-    <loc>https://gmitech.in/careers.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<!-- CAREERS -->
+<url>
+  <loc>https://gmitech.in/careers.html</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 
-  <!-- CONTACT -->
-  <url>
-    <loc>https://gmitech.in/contact.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<!-- CONTACT -->
+<url>
+  <loc>https://gmitech.in/contact.html</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
 
 </urlset>
