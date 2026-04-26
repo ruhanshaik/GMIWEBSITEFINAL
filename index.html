@@ -20,6 +20,7 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 
 <link rel="canonical" href="https://gmitech.in/">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://gmitech.in/sitemap.xml">
 
 <!-- MOBILE FIRST (VERY IMPORTANT) -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -155,10 +156,30 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"url": "https://gmitech.in/",
+"name": "GMI Tech",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https://gmitech.in/search?q={search_term_string}",
+"query-input": "required name=search_term_string"
+}
+}
+</script>
 
 </head>
 
 <body>
+
+    <p style="display:none;">
+S Mohammed Ruhan is the Founder and CEO of GMI Tech Ballari, a leading software development and AI automation company in Ballari, Karnataka, India.
+</p>
+<p style="display:none;">
+GMI Tech provides software development, AI automation, web development, mobile app development, and cloud solutions in Ballari and Bangalore.
+</p>
 
     <header class="flex ac" role="banner">
         <div class="container">
@@ -168,29 +189,28 @@
                     <i class="ri-close-large-fill" role="button" tabindex="0" aria-label="Close menu"></i>
                 </div>
                 <div class="col flex ac">
-                    <a class="logo" href="index.html">GMI Tech</a>
+                    <a class="logo" href="/">GMI Tech</a>
                 </div>
                 <div class="col">
-                    <ul class="nav flex ac" role="navigation" aria-label="Primary">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="blogs.html">Blogs</a></li>
-                        
-                    </ul>
+                    <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
+<a itemprop="url" href="/"><span itemprop="name">Home</span></a>
+<a itemprop="url" href="/services.html"><span itemprop="name">Services</span></a>
+<a itemprop="url" href="/portfolio.html"><span itemprop="name">Portfolio</span></a>
+<a itemprop="url" href="/about.html"><span itemprop="name">About</span></a>
+<a itemprop="url" href="/careers.html"><span itemprop="name">Careers</span></a>
+<a itemprop="url" href="/contact.html"><span itemprop="name">Contact</span></a>
+<a itemprop="url" href="/blogs.html"><span itemprop="name">Blogs</span></a>
+</nav>
                 </div>
             </div>
             <div class="navRow flex f-clmn">
                 <div class="navCol">
-                    <h2><a href="index.html">Home</a></h2>
-                    <h2><a href="services.html">Services</a></h2>
-                    <h2><a href="portfolio.html">Portfolio</a></h2>
-                    <h2><a href="about.html">About</a></h2>
-                    <h2><a href="careers.html">Careers</a></h2>
-                    <h2><a href="blogs.html">Blogs</a></h2>
+                    <h2><a href="/">Home</a></h2>
+                    <h2><a href="/services.html">Services</a></h2>
+                    <h2><a href="/portfolio.html">Portfolio</a></h2>
+                    <h2><a href="/about.html">About</a></h2>
+                    <h2><a href="/careers.html">Careers</a></h2>
+                    <h2><a href="/blogs.html">Blogs</a></h2>
                    
                 </div>
             </div>
@@ -218,7 +238,7 @@
                 </a>
 
                 <!-- Services Page Redirect -->
-                <a href="services.html" style="text-decoration: none;">
+                <a href="/services.html" style="text-decoration: none;">
                     <button type="button" aria-label="View services">
                         <span style="color: #000;" class="text">View Services</span>
                         <span style="color: #000;" class="hover-text">View Services</span>
@@ -621,8 +641,8 @@
 
        
 
-        SECTION - 7 PRICING 
-        <section id="pricing" class="pricingSec">
+        <!-- SECTION - 7 PRICING -->
+        <!-- <section id="pricing" class="pricingSec">
             <div class="container">
                 <div class="pricing-content flex ac jc f-clmn">
                     <h2 class="allh2">Pricing</h2>
@@ -642,8 +662,8 @@
                 <div class="range flex sb">
                     <div class="landing flex f-clmn">
                         <p class="heading"><i class="ri-space-ship-2-line" aria-hidden="true"></i> Starter</p>
-                        <h3 class="price"><span class="anually">Free</span><span
-                                class="monthly remove">Free</span><small>/month</small></h3>
+                        <h3 class="price"><span class="anually">$37</span><span
+                                class="monthly remove">$49</span><small>/month</small></h3>
                         <p class="description">Perfect for small businesses and startups launching their digital presence.</p>
                         <button type="button">Choose this plan</button>
                         <p class="sub-head">What's Included:</p>
@@ -657,8 +677,8 @@
 
                     <div class="elite flex f-clmn">
                         <p class="heading"><i class="ri-flashlight-fill" aria-hidden="true"></i> Professional</p>
-                        <h3 class="price"><span class="anually">10k</span><span
-                                class="monthly remove">15k</span><small>/month</small></h3>
+                        <h3 class="price"><span class="anually">$75</span><span
+                                class="monthly remove">$99</span><small>/month</small></h3>
                         <p class="description">Best for growing brands needing full-stack development and AI features</p>
                         <button type="button">Choose this plan</button>
                         <p class="sub-head">What's Included:</p>
@@ -686,7 +706,7 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- SECTION - 8 TESTIMONIALS -->
         <section id="testimonials" class="testimonialSec">
@@ -1042,13 +1062,20 @@
 </section>
 
     <!-- FOOTER -->
+    <div style="display:none;">
+<a href="/about.html">About GMI Tech</a>
+<a href="/services.html">Our Services</a>
+<a href="/contact.html">Contact GMI Tech</a>
+<a href="/blogs.html">Tech Blogs</a>
+<a href="/careers.html">Careers</a>
+</div>
     <footer>
         <div class="container">
             <div class="footer-main flex sb">
                 <div class="imgcol flex f-clmn">
                     <div class="flex ac">
                         <img src="Images/favicon.png" alt="GMI Tech logo" loading="lazy" decoding="async">
-                        <a class="logo" href="index.html">GMI Tech</a>
+                        <a class="logo" href="/">GMI Tech</a>
                     </div>
                     <p>GMI Tech – A growing technology startup based in Ballari & Bangalore, providing modern software, automation, and IT services for businesses.</p>
                 </div>
@@ -1068,7 +1095,7 @@
                     <p><i>@2026 GMI Tech. All Rights Reserved.</i></p>
                 </div>
                 <div class="signatureCol">
-                    <a href="https:/gmitech.in">GMI Tech</a>
+                    <a href="https://gmitech.in">GMI Tech</a>
                 </div>
             </div>
 
@@ -1224,7 +1251,7 @@
   ]
 }
 </script>
-
+<script src="gmi-chatbot.js" defer></script>
 </body>
 
 </html>
